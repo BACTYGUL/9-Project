@@ -1,0 +1,28 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+@media (max-width:700px) {
+    .box{
+        background-color: red;
+        border-radius: 20px;
+    }
+    body{
+        background-color: black;
+
+    }
+}
+
+.cards{
+    display: flex;  
+    gap: 10px;
+     flex-wrap: wrap; 
+}
+
+@media (max-width:1413px) {
+    .cards{
+        flex-direction: column;
+    }
+}
